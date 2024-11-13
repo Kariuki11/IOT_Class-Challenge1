@@ -145,3 +145,28 @@ void loop() {
   server.handleClient();
   webSocket.loop();
 }
+  
+  // The code is well-commented and should be easy to understand. Here’s a brief overview of the code: 
+  
+  // Include the necessary libraries for WiFi, WebServer, WebSocketsServer, Adafruit_SSD1306, and Adafruit_GFX. 
+  // Define the GPIO pins for the RGB LED, LEDs, and OLED display. 
+  // Initialize the WebServer and WebSocketsServer objects. 
+  // Define the LED states and initialize the WiFi connection. 
+  // Implement the updateOLED function to update the OLED display with the current LED states. 
+  // Implement the toggleLED function to toggle the state of an LED and update the OLED display. 
+  // Implement the webSocketEvent function to handle WebSocket messages and toggle the LEDs accordingly. 
+  // Define the HTML content for the webpage. 
+  // Implement the setup function to initialize the OLED display, LED pins, RGB LED brightness, WiFi connection, WebServer, and WebSocketsServer. 
+  // Implement the loop function to handle incoming client requests and WebSocket messages. 
+  
+  // Compile and Upload the Code 
+  // After writing the code, compile and upload it to your ESP32 board. Make sure you have selected the correct board and port in the Arduino IDE before uploading the code. 
+  // Once the code is uploaded, open the Serial Monitor to view the IP address of the ESP32. You will need this IP address to access the web server. 
+  // Access the Web Server 
+  // Open a web browser on your computer or smartphone and enter the IP address of the ESP32 in the address bar. You should see a webpage with two buttons labeled “Toggle LED 1” and “Toggle LED 2”. 
+  // Clicking on these buttons will toggle the states of the LEDs connected to the ESP32. The OLED display will also update to show the current states of the LEDs. 
+  // You can also open the Serial Monitor to view the WebSocket messages sent and received by the ESP32. 
+  // That’s it! You have successfully created a web server to control LEDs using WebSocket communication on an ESP32. You can now customize the code to add more features or control other devices using the web server. 
+  // Summary 
+  // In this tutorial, you learned how to create a web server to control LEDs using WebSocket communication on an ESP32. You used the WebServer and WebSocketsServer libraries to handle HTTP requests and WebSocket messages. You also used an OLED display to show the current states of the LEDs. 
+  // WebSocket communication allows for real-time bidirectional communication between the ESP32 and the web client,
