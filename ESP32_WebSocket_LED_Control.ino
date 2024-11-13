@@ -145,6 +145,9 @@ void loop() {
   server.handleClient();
   webSocket.loop();
 }
+
+
+
   
   // The code is well-commented and should be easy to understand. Here’s a brief overview of the code: 
   
